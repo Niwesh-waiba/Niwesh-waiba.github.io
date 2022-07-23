@@ -1,0 +1,45 @@
+Windows PowerShell
+Copyright (C) 2014 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\New\Desktop\Neuu> git iniy
+git: 'iniy' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+PS C:\Users\New\Desktop\Neuu> git init
+Reinitialized existing Git repository in C:/Users/New/Desktop/Neuu/.git/
+PS C:\Users\New\Desktop\Neuu> git add index.html
+PS C:\Users\New\Desktop\Neuu> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\New\Desktop\Neuu> git commit -m "init commit"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\New\Desktop\Neuu> git push origin master
+Everything up-to-date
+PS C:\Users\New\Desktop\Neuu> git add index.html
+PS C:\Users\New\Desktop\Neuu> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+PS C:\Users\New\Desktop\Neuu> git commit -m "init commit"
+[master 8884f4b] init commit
+ 1 file changed, 3 insertions(+)
+PS C:\Users\New\Desktop\Neuu> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 104.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Niwesh-waiba/Neuu.git
+   05761fe..8884f4b  master -> master
+PS C:\Users\New\Desktop\Neuu>

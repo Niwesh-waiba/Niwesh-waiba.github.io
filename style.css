@@ -1,0 +1,12 @@
+p{
+    background-color: red;
+}
+body .title{
+    background-color: aqua;
+}
+body p#id.title{
+    background-color: darkorange;
+}
+body p#id-title.title{
+    background-color: blue;
+}
