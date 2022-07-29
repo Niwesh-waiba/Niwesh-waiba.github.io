@@ -7,14 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            align-self: center;
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .headerNav{
+            border: 2px solid black;
+            background-color: lightgreen ;
+            
+            padding: 15px;
+        }
+
+        .heading{
+            padding: 15px;
+            margin: 15px;
+            font-weight: bold;
+            color: darkslateblue;
         }
 
         .header {
-            border-bottom: 5px solid black;
+            border-bottom: 2px solid black;
             margin: 0px;
             padding: 50px;
             background-color: aqua;
@@ -49,10 +61,14 @@
 
 <body>
     <div class="header">
-        <p style="font-size: 4em;">NEUU
-        <button style="height:fit-content ;"> Home</button>
-        <button> About us</button>
-    </p>
+        <p style="font-size: 4em;">NEUU    </p>
+    </div>
+    <div class="headerNav">
+        <span class="heading">home</span>
+        <span class="heading">About us</span>
+        <span class="heading">Contacts</span>
+        <span class="heading">Gallery</span>
+        <span class="heading">More</span>
     </div>
     <div class="body">
         <p> Welcome to our website.</p>
