@@ -3,98 +3,132 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-        .headerNav{
-            border: 2px solid black;
-            background-color: lightgreen ;
-            
-            padding: 15px;
-        }
-
-        .heading{
-            padding: 15px;
-            margin: 15px;
-            font-weight: bold;
-            color: darkslateblue;
-        }
-
-        .header {
-            border-bottom: 2px solid black;
-            margin: 0px;
-            padding: 50px;
-            background-color: grey;
-            max-height: 30%;
-        }
-        .body {
-            border: 50 px;
-            margin: 0px;
-            padding: 50px;
-            background-color: aqua;
-            max-height: 40%;
-        }
-        .footer {
-            border-top: 5px solid black;
-            margin: 0px;
-            padding: 50px;
-            background-color: aqua;
-            max-height: 30%;
-
-        }
-        p{
-            text-align: center;
-            font-size: xx-large;
-         }
-       
-
-        .pic {
-            margin-left: 35%;
-        }
-    </style>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="header">
-        <p style="font-size: 4em;">NEUU    </p>
-    </div>
-    <div class="headerNav">
-        <span class="heading">home</span>
-        <span class="heading">About us</span>
-        <span class="heading">Contacts</span>
-        <span class="heading">Gallery</span>
-        <span class="heading">More</span>
-    </div>
-    <div class="body">
-        <p> Welcome to our website.</p>
-        <div class="pic">
-            <img src="feature.jpg"><br>
-            
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Portfolio</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>
+                Hi, I'm Niwesh Waiba, a BIM student currently studying at KIST College. I have a strong passion
+                for technology and enjoy exploring various aspects of it. As a tech enthusiast, I am always eager to
+                learn and
+                keep up with the latest trends and advancements in the field.
+            </p><a href="#portfolio" class="btn">View Portfolio</a>
         </div>
-        <p> The one on left is Naruto middle is luffy and right is Natsu </p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex eaque sapiente fugit porro vel itaque rerum earum veritatis sequi fugiat voluptas labore suscipit, dolorum voluptate quaerat distinctio! Dolorem, modi!
-        Lorem ipsum dolor sit akmet consectetur adipisicing elit. Officiis culpa nisi harum doloremque ipsum, quaerat consequuntur dolore quisquam est earum soluta ut! Obcaecati provident facere sed minima dolorem. Laboriosam, nesciunt.
-        Lorem ipsum dolor sit amet consectetur adi
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+
+            <p>
+                I have a particular interest in cybersecurity, as it combines my fascination with technology and my
+                desire to
+                ensure the safety and privacy of digital systems. I am constantly exploring and improving my knowledge
+                in
+                this area to contribute to creating secure digital environments.
+            </p>
+            <p>
+                Additionally, I have a keen interest in Linux and operating systems. I find the flexibility, security,
+                and
+                open-source nature of Linux to be incredibly fascinating. Exploring different distributions and learning
+                how
+                to navigate the command line has been a rewarding experience for me. I believe that understanding
+                operating
+                systems is essential for any tech professional, and it enables me to have a deeper understanding of how
+                software and hardware interact.
+            </p>
+            <p>
+                In addition to my interests in cybersecurity and Linux, I have experience in programming languages such
+                as
+                Java and PHP. I find joy in developing software solutions and creating efficient and reliable
+                applications. I
+                am always open to new opportunities and challenges that allow me to apply my skills and expand my
+                expertise.
+            </p>
+            <p>
+                Outside of my academic pursuits, I enjoy gaming and exploring new technologies. It's exciting to see how
+                technology continues to shape our world and influence our lives. I believe in the power of technology to
+                drive positive change and make a difference in society.
+            </p>
+            <p>
+                Thank you for visiting my portfolio. Feel free to explore my projects and get in touch if you have any
+                questions or would like to collaborate on a project. I look forward to connecting with like-minded
+                individuals who share a passion for technology.
+            </p>
+        </div>
+    </section>
 
 
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="3.jpg" alt="Photo 4">
+                </div>
+                <div class="portfolio-item">
+                    <img src="4.jpg" alt="Photo 5">
+                </div>
+                <div class="portfolio-item">
+                    <img src="5.jpg" alt="Photo 6">
+                </div>
+                <div class="portfolio-item">
+                    <img src="0.jpg" alt="Photo 1">
+                </div>
+                <div class="portfolio-item">
+                    <img src="1.jpg" alt="Photo 2">
+                </div>
+                <div class="portfolio-item">
+                    <img src="2.jpg" alt="Photo 3">
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-        sdfodsafodsanfonfoasdi
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum consequuntur cupiditate itaque, earum, sunt et ea est blanditiis accusamus quasi odio nisi ex repellat voluptate optio illo quibusdam tempore.
-        
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore asperiores tenetur eos repudiandae ea magnam. Sunt, fuga doloremque. Voluptatum, mollitia nostrum error laudantium enim perferendis possimus! Suscipit ab fuga expedita!pisicing elit. Quam iste, obcaecati impedit quis distinctio cupiditate libero beatae assumenda, veniam ipsa nobis, suscipit accusantium perferendis reiciendis voluptas pariatur ratione aperiam nam.
-    </div>
     
 
-    <div class="footer">
-        contact info: 9876543210<br>
-        <a href="niweshwaiba@gmail.com"> Email us </a>
-    </div>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to discuss a project or have any questions, feel free to get in touch.</p>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 John Doe. All rights reserved.</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/niwesh-waiba/"><img src="linkedin-icon.png" alt="LinkedIn"></a></li>
+                <li><a href="https://github.com/Niwesh-waiba"><img src="github-icon.png" alt="GitHub"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
